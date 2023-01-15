@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: gestionar-pelicula-feign
+
+info:
+    app:
+      name: ${spring.application.name}
+          description:This application returns a random subject
+
+server:
+  # port: ${PORT:${SERVER_PORT:0}}  # lanza la aplicacion en el primer puerto libre
+    port: 50606
+eureka:
+  instance:
+    hostname: localhost
+    instance-id: ${eureka.instance.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
+  client:
+    service-url:
+     default-zone: http://localhost:8761
