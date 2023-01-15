@@ -14,3 +14,7 @@ Demo Spring Boot microservice with Eureka Server and Feign
 operation, in this initial version, returns a text string indicating whether the movie it can be inserted or not (it will be able to be inserted if the movie verification is successful).
 Use feign for load balancing.
 
+#How to Install and Run the Project
+Java (JDK 11 +)
+Eclipse, IntelliJ IDEA, or another IDE.
+
