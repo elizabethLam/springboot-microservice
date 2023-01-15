@@ -2,7 +2,7 @@
 Demo Spring Boot microservice with Eureka Server and Feign
 
 
-Microservices: 
+# Project Description
 
 • microservice.eureka.server: Every Microservice will register into the Eureka server and Eureka server knows all the client applications running on each port and IP address. (Service Registration and Discovery)
 
