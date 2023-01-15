@@ -14,7 +14,14 @@ Demo Spring Boot microservice with Eureka Server and Feign
 operation, in this initial version, returns a text string indicating whether the movie it can be inserted or not (it will be able to be inserted if the movie verification is successful).
 Use feign for load balancing.
 
-#How to Install and Run the Project
+# How to Install and Run the Project
+
 Java (JDK 11 +)
 Eclipse, IntelliJ IDEA, or another IDE.
+clone the projects
+open in the IDE
+first run euerka server, and then run the other microservices.
+Euerka Sever will run in the port 8761.
+you can use Postman to check the endpoint, ex: make a post request to  http://localhost:50606/movie, in the body add the title of the movie. 
+
 
